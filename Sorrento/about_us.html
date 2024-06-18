@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="text.css">
+</head>
+<body>
+    <div class="header">
+        <nav id="navbar">
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="about_us.html"> About us</a></li>
+                <li><a href="getting_here.html">Getting Here</a></li>
+            </ul>
+        </nav>
+     </div>
+    <h1 class="major_heading">Our Story</h1>
+
+    <pre class="text">        On the Mornington Peninsula (one hour from Melbourne) next door to Portsea.
+        Our apartment is a lazy 10-minute walk from the relaxed township of Sorrento that offers restaurants, cafes, a chemist, a supermarket, a butcher and lots more. It is located in a quiet avenue, just 4 houses from the beach. It is in easy walking distance of the ocean beaches and surf.
+        Your private luxury apartment consists of a spacious living area with leather lounge suite overlooking a sun drenched, tree-filled private garden. 
+        A separate kitchenette has everything you need to make your stay relaxed and comfortable. A queen sized bedroom and an amazing bathroom complete with free standing black bath entices you to relax and unwind. 
+        Two TVs are sure to make everyone happy!  An undercover BBQ area with seating offers plenty of space to stretch out and enjoy that cup of freshly brewed coffee or a glass of wine.
+        This is the perfect place for a home away from home.
+    </pre>
+<h1 class="sub_heading">Contact Details</h1>
+<p class="text">Sorrento by the Sea Apartment - Luxury Self Contained Apartment</p>
+<pre class="text">Information and Bookings 
+    0435 123 456
+    42 Holyrood Avenue
+    Sorrento VIC 3943
+    </pr>
+<h2 class="sub_heading">Contact Us by Filling Form</h2>
+<form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br>
+    <label for="Phone">Phone:</label><br>
+    <input type="number" id="Phone" name="Phone"><br>
+    <label for="feedback">Feedback:</label><br>
+    <input type="text" name="feedback" id="feedback"><br><br>
+    <input type="submit" value="Submit" >
+</form>
+
+
+<footer>
+<img src="logo/facebook_small.png" alt="Facebook Icon"> <img src="logo/instagram_small.png" alt="Instagram Icon"> <img src="logo/twitter_small.png" alt="Twitter Icon"> <img src="logo/youtube-variation_small.png" alt="Youtube Icon">
+    <h3> &copy;2024 Wai Yan Tun</h3>
+</footer>
+
+<script>
+    var navbar = document.getElementById("navbar");
+    var menu = document.getElementById("menu");
+   
+    window.onscroll =function(){
+    if (window.pageYOffset >= menu.offsetTop) {
+           navbar.classList.add("sticky");
+       } else {
+           navbar.classList.remove("sticky");
+       }
+       }
+</script>
+</body>
+</html>

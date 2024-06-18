@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorrento By The Sea</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="text.css">
+    
+</head>
+<body>
+     <div class="header">
+        <nav id="navbar">
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="about_us.html"> About us</a></li>
+                <li><a href="getting_here.html">Getting Here</a></li>
+            </ul>
+        </nav>
+     </div>
+
+<h1 class="major_heading">Our Testimonials</h1>
+
+<p class="text">"So sorry we had to go home after only one night. We will definitely stay two nights next time!"
+    "This apartment is close to everything. We didn't need the car as the walks were amazing"
+    "Your attention to detail made our stay so relaxed and comfortable. It was such a shame we had to drive back to our little flat, which is smaller than your apartment. We want to move in!"
+    "Cosy and comfortable. We imagined we owned it and enjoyed being spoilt.  Thank you." 
+    "What a magical stay at such an amazing place. Completely self-contained and very private. We loved it and will return again and again."
+    "Never felt so spoilt. A perfect get away and so close to everything. We had the best bath ever!"
+    "A few minutes’ walk from the beach, picnic basket in hand and towel over the shoulder - can't think of anything better except that wonderful breakfast. That bacon is the best in Melbourne!"
+    Relaxing in that sunny garden watching our dog chasing balls. Let me stay forever!"
+</p>
+<img src="house_image/apartment_front.jpg" alt="apartment front"  class="sample">
+<img src="house_image/apartment_garden.jpg" alt="apartment garden" class="sample">
+<img src="house_image/apartment_bath.jpg" alt="apartment bath" class="sample">
+
+<footer>
+    <img src="logo/facebook_small.png" alt="Facebook Icon">
+    <img src="logo/instagram_small.png" alt="Instagram Icon">
+    <img src="logo/twitter_small.png" alt="Twitter Icon">
+    <img src="logo/youtube-variation_small.png" alt="Youtube Icon">
+    <h3> &copy;2024 Wai Yan Tun</h3>
+
+</footer>
+
+<script>
+    var navbar = document.getElementById("navbar");
+    var menu = document.getElementById("menu");
+   
+    window.onscroll =function(){
+    if (window.pageYOffset >= menu.offsetTop) {
+           navbar.classList.add("sticky");
+       } else {
+           navbar.classList.remove("sticky");
+       }
+       }
+</script>
+</body>
+</html>
